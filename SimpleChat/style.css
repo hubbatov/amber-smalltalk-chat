@@ -1,0 +1,50 @@
+/* Classes*/
+
+.toolbutton{
+	width: 100px;
+    color: gray;
+    border-radius: 6px;
+    float: right;
+    margin-right: 20px;
+}
+.textinput{
+	color: gray;
+    border-radius: 6px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Identificators*/
+/* Login */
+
+#loginform {
+	border-radius: 6px;
+	width: 300px;
+	height: 20px;
+    padding: 10px; 
+    margin: auto; 
+    background: #fc0; 
+}
+#logininput{
+	width: 150px;
+ 	position: left;
+}
+
+/* Messages */
+
+#messages {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+}
+#messagesinput {
+    position: fixed; 
+    left: 0; bottom: 0; 
+    padding: 10px;
+    background: #39b54a; 
+    color: #fff; 
+    width: 100%;
+    padding: 10px;
+}
+#messageinput {
+    width:70%;
+}

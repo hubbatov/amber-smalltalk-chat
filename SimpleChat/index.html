@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="ru">
+	<head>
+		<title>Chat</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="../../js/amber.js"></script>
+		<script type="text/javascript">    
+	      	loadAmber({ 
+				files: ['WebExamples.js'], 
+				prefix: 'projects/SimpleChat/js', 
+				ready: function() {
+	      					$(function() {
+	        					smalltalk.SimpleChatExample._new()._init();
+	      					});
+	     				}
+	     		});
+    	</script>
+	</head>
+	<body>
+		<div id="loginform">
+			<input id="logininput" class="textinput" type="text">
+			<input id="loginbutton" class="toolbutton" type="button" value="Login"></button>
+		</div>
+		<div id="messages">
+		</div>
+		<div id="messagesinput">
+			<input id="messageinput" class="textinput" type="text">
+			<input id="browserbutton" class="toolbutton" type="button" value="OpenBrowser" onclick="smalltalk.Browser._open()"></button>
+			<input id="sendbutton" class="toolbutton" type="button" value="Send message"></button>
+		</div>
+	</body>
+</html>
